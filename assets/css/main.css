@@ -726,7 +726,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 .info-banner .overlay .content-wrap .content {
   background: #fff;
   color: #0D1F3B;
-  padding: 3rem 4rem;
+  padding: 3rem 2rem;
 }
 
 @media (max-width: 991px) {

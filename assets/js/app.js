@@ -28,7 +28,7 @@
 		})
 		
 		.state('services', {
-			url: "/practice-area",
+			url: "/practice-areas",
 			templateUrl: "partials/services.html"
 		})
 
