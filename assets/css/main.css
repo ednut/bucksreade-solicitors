@@ -636,6 +636,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   font-size: 1rem;
   font-weight: 400;
   line-height: 23px;
+  text-align: justify;
 }
 
 .professional .content-wrap .text p span.letter {
@@ -653,7 +654,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 }
 
 .professional.about {
-  margin-top: 7rem;
+  margin-top: 2rem;
 }
 
 @media (max-width: 991px) {
@@ -661,6 +662,10 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
     margin-top: 0;
     padding-top: 3rem;
   }
+}
+
+.professional.about .content-wrap .text {
+  width: 100%;
 }
 
 @media (max-width: 991px) {
@@ -807,6 +812,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 .info p {
   font-size: 1rem;
   line-height: 30px;
+  text-align: justify;
 }
 
 .info ol {
@@ -830,6 +836,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   font-size: 1rem;
   font-weight: 400;
   line-height: 23px;
+  text-align: justify;
 }
 
 .info.with-bg {
@@ -997,6 +1004,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 .partners-content .content-sec p {
   font-size: 1rem;
   line-height: 30px;
+  text-align: justify;
 }
 
 .partners-content .content-sec p span.letter {
@@ -1101,6 +1109,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 .practice-area .content .content-info p {
   font-size: 1rem;
   line-height: 30px;
+  text-align: justify;
 }
 
 .practice-area .content .content-info p:first-child {
@@ -1155,6 +1164,7 @@ footer .wrap {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  text-align: justify;
 }
 
 @media (max-width: 991px) {

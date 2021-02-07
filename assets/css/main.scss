@@ -495,6 +495,7 @@ header{
                 font-size: 1rem;
                 font-weight: 400;
                 line-height: 23px;
+                text-align: justify;
                 span.letter{
                     position: relative;
                     display: inline-block;
@@ -512,13 +513,14 @@ header{
         }
     }
     &.about{
-        margin-top: 7rem;
+        margin-top: 2rem;
         @media (max-width: 991px){
             margin-top: 0;
             padding-top: 3rem;
         }
         .content-wrap{
             .text{
+                width: 100%;
                 .title{
                     @media (max-width: 991px){
                         font-size: 2rem;
@@ -632,6 +634,7 @@ header{
     p{
         font-size: 1rem;
         line-height: 30px;
+        text-align: justify;
     }
     ol{
         padding: 0;
@@ -651,6 +654,7 @@ header{
         font-size: 1rem;
         font-weight: 400;
         line-height: 23px;
+        text-align: justify;
     }
     &.with-bg{
         background: #f0f0f0;
@@ -759,6 +763,7 @@ header{
         p{
             font-size: 1rem;
             line-height: 30px;
+            text-align: justify;
             span.letter{
                 position: relative;
                 display: inline-block;
@@ -834,6 +839,7 @@ header{
             p{
                 font-size: 1rem;
                 line-height: 30px;
+                text-align: justify;
                 &:first-child{
                     margin-top: 0;
                 }
@@ -875,6 +881,7 @@ footer{
     .wrap{
         display: flex;
         flex-direction: row;
+        text-align: justify;
         @media (max-width: 991px){
             flex-direction: column;
         }
